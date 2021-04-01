@@ -5,6 +5,7 @@ import "tailwindcss/tailwind.css";
 const App = ({ Component, pageProps }) => (
   <>
     <DefaultSeo
+      title="Reboot"
       description="Reboot As A Service"
       openGraph={{
         type: "website",
