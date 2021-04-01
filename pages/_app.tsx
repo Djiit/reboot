@@ -27,6 +27,13 @@ const App = ({ Component, pageProps }) => (
         cardType: "summary_large_image",
       }}
     />
+    <style jsx global>
+      {`
+        a {
+          cursor: pointer;
+        }
+      `}
+    </style>
     <Component {...pageProps} />
   </>
 );
